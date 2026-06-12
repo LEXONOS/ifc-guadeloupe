@@ -1,0 +1,14 @@
+{
+  "name": "IFC — Ice Fruits Chocolate",
+  "short_name": "IFC",
+  "description": "La roulotte gourmande de Sainte-Anne, Guadeloupe : sorbet coco maison, banane chocolat, jus locaux et eau de coco.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbf5ea",
+  "theme_color": "#0c6b5b",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
