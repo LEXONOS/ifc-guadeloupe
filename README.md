@@ -103,11 +103,15 @@ Si vous souhaitez **héberger les images vous-même** (pour être 100 % indépen
 ## 6. Modifier le contenu et les couleurs
 
 - **Textes, horaires, téléphone, e-mail** : directement dans les fichiers `.html` (le contenu est en clair).
-- **Couleurs et typographie** : en haut de `assets/css/styles.css`, dans la section des variables (`:root`). Par exemple :
-  - `--lagon` : le vert-bleu lagon principal,
-  - `--mangue` : l'orange des boutons,
-  - `--soleil` : le jaune des accents,
-  - `--coco` : le fond crème.
+- **Couleurs et typographie** : en haut de `assets/css/styles.css`, dans la section des variables (`:root`). La palette est volontairement crème / blanc / marron clair / chocolat (DA de la roulotte) :
+  - `--coco` : le crème du fond principal,
+  - `--coco-card` : le blanc chaud des cartes,
+  - `--mangue` : le caramel / marron clair des boutons et accents,
+  - `--lagon` : le chocolat des sections sombres,
+  - `--cacao` : l'espresso du texte,
+  - `--soleil` : le miel sable des surlignages.
+
+  > Les noms de variables (`--lagon`, `--mangue`…) sont des « étiquettes » techniques : seules les valeurs comptent. Changez une valeur hexadécimale et toute la charte se met à jour d'un coup.
 - **Liens réseaux sociaux** : recherchez `instagram.com/ifc.guadeloupe` et `tiktok.com/@ifc.guadeloupe`.
 - **Coordonnées GPS / carte** : dans `index.html`, section « Emplacement ».
 
@@ -118,7 +122,7 @@ Si vous souhaitez **héberger les images vous-même** (pour être 100 % indépen
 ## 7. Détails techniques
 
 - **Aucune dépendance, aucun framework** : du HTML/CSS/JS natif. Compatible avec n'importe quel hébergement statique (Vercel, Netlify, GitHub Pages, OVH…).
-- **SEO** : titres et descriptions uniques par page, balises Open Graph / Twitter, données structurées JSON-LD (`IceCreamShop`, `BreadcrumbList`, etc.), `sitemap.xml` et `robots.txt`.
+- **SEO** : titres et descriptions uniques par page ciblant les recherches locales (« sorbet coco Guadeloupe », « meilleur sorbet Guadeloupe »), balises Open Graph / Twitter, données structurées JSON-LD (`IceCreamShop` avec adresse, horaires et carte, `BreadcrumbList`, `FAQPage`, `Service`…), section FAQ visible, `sitemap.xml` et `robots.txt`. Le site est en français ; une version anglaise dédiée peut être ajoutée pour viser aussi les recherches en anglais.
 - **Accessibilité** : structure sémantique, navigation au clavier, focus visibles, textes alternatifs, respect de `prefers-reduced-motion`.
 - **Performance** : images en chargement différé (`lazy`), polices préconnectées, CSS et JS légers.
 

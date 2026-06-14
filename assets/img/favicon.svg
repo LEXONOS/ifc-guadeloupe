@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="IFC">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0c6b5b"/>
-      <stop offset="1" stop-color="#084f43"/>
+      <stop offset="0" stop-color="#3b2618"/>
+      <stop offset="1" stop-color="#22150c"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="16" fill="url(#bg)"/>
-  <!-- cornet -->
-  <path d="M22 30 L42 30 L32 52 Z" fill="#f8c13a"/>
-  <path d="M22 30 L42 30 L40 34 L24 34 Z" fill="#eab21f"/>
-  <!-- boules de sorbet -->
-  <circle cx="27" cy="27" r="9" fill="#fbf5ea"/>
-  <circle cx="37" cy="27" r="9" fill="#cfece3"/>
-  <circle cx="32" cy="20" r="9" fill="#fff"/>
-  <!-- touche mangue (cerise) -->
-  <circle cx="32" cy="13" r="3.4" fill="#ff7a33"/>
+  <!-- cornet caramel (gaufré) -->
+  <path d="M22 30 L42 30 L32 52 Z" fill="#c79a64"/>
+  <path d="M22 30 L42 30 L40 34 L24 34 Z" fill="#a96f3d"/>
+  <!-- boules de sorbet : crème, blanc, coco -->
+  <circle cx="27" cy="27" r="9" fill="#f5eee2"/>
+  <circle cx="37" cy="27" r="9" fill="#ead9bf"/>
+  <circle cx="32" cy="20" r="9" fill="#fffefb"/>
+  <!-- filet de chocolat -->
+  <path d="M26 18 q3 4 6 1 q3 -3 6 1" fill="none" stroke="#3b2618" stroke-width="2.4" stroke-linecap="round"/>
 </svg>
